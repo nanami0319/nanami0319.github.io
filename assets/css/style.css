@@ -1,0 +1,338 @@
+@charset "UTF=8";
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#logo{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 140px;
+  display: flex;
+  background-color: white;
+}
+
+#logo img{
+  object-fit: cover;
+  margin-top: 25px;
+  padding-left: 10%;
+  width: 300px;
+  height: 100px;
+}
+
+.navigation{
+  gap: 20px;
+  display: flex;
+  margin-top: 30px;
+  padding-left: 250%;
+}
+
+.navigation li{
+  margin-top: 20px;
+  list-style: none;
+  font-family: 'Caveat', cursive;
+}
+
+.navigation a{
+  /* margin: 20px; */
+  color: gray;
+  font-size: 40px;
+  transition: all 1s linear;
+}
+
+.navigation a:hover{
+  color: yellow;
+  transition: rotateZ(360deg);
+}
+
+.keyvisual{
+  padding: 0;
+  margin: 0;
+  height: 650px;
+  background-image: url(../img/home1.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center 70px;
+  background-repeat: no-repeat;
+}
+
+#me{
+  background-color: #faeff4;
+}
+
+.hobby{
+  display: flex;
+  padding-left: 12%;
+  padding-top: 10px;
+}
+
+#me h1{
+  margin-top: 20px;
+  margin-left: 4%;
+  font-size: 80px;
+  color: gray;
+  font-family: 'Caveat', cursive;
+}
+
+#me h2{
+  padding-top: 30px;
+  margin-left: 7%;
+  font-size: 50px;
+  color: gray;
+  font-family: 'Caveat', cursive;
+}
+
+.first p{
+  /* font-family:"Hannari"; */
+  text-align: center;
+}
+
+.hobby p{
+  /* font-family: "Hannari";  */
+  margin-top: 80px;
+}
+
+.wf-sawarabimincho { 
+  font-family: "Sawarabi Mincho";
+  color: rgb(77, 76, 76);
+}
+
+.arrow{
+  margin-left: 12%;
+	position: relative;
+	display: inline-block;
+	padding: 40px;
+	color: #000;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.arrow::before,
+.arrow::after{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	content: "";
+	vertical-align: middle;
+}
+
+.sample5-2::before{
+	left: 30px;
+	width: 40px;
+	height: 40px;
+	border-top: 20px solid gray;
+	border-right: 20px solid gray;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.recommend-img{
+  margin-left: 12%;
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.image{
+  width: auto;
+  height: 200px;
+  opacity: 0.6; /* 初期状態では少し透明 */
+  transition: opacity 0.3s ease, transform 0.3s ease, z-index 0s ease;
+  object-fit: cover;
+}
+
+.image:hover{
+  opacity: 1; /* マウスオーバー時に完全に不透明に */
+  transform: scale(1.1); /* 少し拡大 */
+  z-index: 1; /* 順番を前に持ってくる */
+}
+
+.recommend-img:hover .image {
+  opacity: 0.6; /* コンテナにマウスオーバーしても他の画像は透明 */
+}
+
+.recommend-img:hover .image:hover{
+  opacity: 1; /* マウスオーバーした画像は完全に不透明 */
+}
+
+progress{
+  accent-color: rgb(244, 152, 167);
+  height: 60px;
+  padding-top: 10px;
+  /* font-size: 30px; */
+}
+
+label{
+  color: rgb(77, 76, 76);
+  padding: 10px;
+}
+
+.can h2{
+  padding-left: 70%;
+  font-size: 50px;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex p{
+  padding-top: 30px;
+  padding-left: 40%;
+}
+
+.one{
+  padding-left: 10%;
+  width: 80px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.two{
+  padding-left: 10%;
+  width: 80px;
+  display: flex;
+  padding-bottom: 50px;
+  /* flex-wrap: wrap; */
+}
+
+#work{
+  background-color: #faeff4;
+}
+
+#work h1{
+  margin-top: 0px;
+  margin-left: 4%;
+  font-size: 80px;
+  color: gray;
+  font-family: 'Caveat', cursive;
+}
+
+.work-one{
+  display: flex;
+  margin-left: 20%;
+}
+
+.work-one img{
+  margin: 10px;
+  width: 400px;
+  height: auto;
+  border: solid 3px white;
+}
+
+.work-two{
+  display: flex;
+  margin-left: 20%;
+}
+
+.work-two img{
+  margin: 10px;
+  width: 400px;
+  height: auto;
+  border: solid 3px white;
+}
+
+#contact{
+  background-color: #faeff4;
+  background-image: url(../img/contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#contact h1{
+  margin-top: 0px;
+  margin-left: 4%;
+  font-size: 80px;
+  color: gray;
+  font-family: 'Caveat', cursive;
+}
+
+form div{
+  margin-bottom: 14px;
+}
+
+label{
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"]
+textarea{
+  background: rgba(255, 255, 255, 5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  max-width: 240px;
+}
+
+textarea{
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+
+input[type="submit"]{
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+  padding-bottom: 80px;
+}
+
+.button{
+  font-size: 1.375rem;
+  background: rgb(246, 205, 227);
+  color: rgb(77, 76, 76);
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+
+.button:hover{
+  background: rgb(252, 252, 202);
+}
+
+.copy{
+  background-color: white;
+  text-align: center;
+  color: rgb(77, 76, 76);
+}
+
+
+.heart{
+  mask-image: url(../img/heart.png);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  height: 300px;
+  width: 300px;
+}
+
+.heart-progress{
+  height: 50px;
+  width: 100%;
+  background-color: red;
+}
+
+.heart img{
+  height: 100%;
+  width:  100%;
+}
