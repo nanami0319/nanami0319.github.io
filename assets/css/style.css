@@ -60,6 +60,8 @@ body{
 
 #me{
   background-color: #faeff4;
+  padding: 0;
+  margin: 0;
 }
 
 .hobby{
@@ -228,8 +230,21 @@ h3{
   color: rgb(77, 76, 76);
 }
 
+.can p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 60%;
+}
+
+.can{
+  padding: 0;
+  margin: 0;
+}
+
 #work{
   background-color: #faeff4;
+  padding: 0;
+  margin: 0;
 }
 
 #work h1{
