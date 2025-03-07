@@ -160,45 +160,34 @@ body{
   opacity: 1; /* マウスオーバーした画像は完全に不透明 */
 }
 
-progress{
-  accent-color: rgb(244, 152, 167);
-  height: 60px;
-  padding-top: 10px;
-  /* font-size: 30px; */
+.mask-image{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  mask-image: url(heart1.svg);
+  mask-repeat: no-repeat;
+  mask-position: 0 0;
+  mask-size: contain;
 }
 
-label{
-  color: rgb(77, 76, 76);
-  padding: 10px;
+.inner-1{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #7c7a7a;
 }
 
-.can h2{
-  padding-left: 70%;
-  font-size: 50px;
-}
-
-.flex{
-  display: flex;
-}
-
-.flex p{
-  padding-top: 30px;
-  padding-left: 40%;
-}
-
-.one{
-  padding-left: 10%;
-  width: 80px;
-  display: flex;
-  /* flex-wrap: wrap; */
-}
-
-.two{
-  padding-left: 10%;
-  width: 80px;
-  display: flex;
-  padding-bottom: 50px;
-  /* flex-wrap: wrap; */
+.inner-2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  z-index: 2;
+  background: #f8bef4;
 }
 
 #work{
