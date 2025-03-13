@@ -1,31 +1,76 @@
 @charset "UTF=8";
 
+body{
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+/* home */
+
+#home{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box; /*　width100%の中にpadding 30pxを含ませる。 */ 
+  padding: 30px;
+}
+
+.navigation{
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navigation a{
+  font-size: 30px;
+}
+
 #home img{
   object-fit: contain;
   width: 200px;
   height: auto;
 }
 
-.navigation{
-  list-style: none;
-  font-size: 30px;
+.navigation a{
+  color: gray;
 }
 
-.navigation a{
-  color: white;
+.keyvisual{
+  background-image: url(../img/home1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-width: 100%;
 }
+
+/* me */
 
 #me{
   display: none;
 }
 
+/* work */
+
 #work{
   display: none;
 }
 
+/* contact */
+
 #contact{
   display: none;
 }
+
+/* copy */
 
 #copy{
   display: none;
