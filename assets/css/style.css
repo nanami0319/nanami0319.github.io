@@ -14,7 +14,6 @@ body{
 
 
 h1{
-  margin-top: 20px;
   margin-left: 4%;
   font-size: 80px;
   color: gray;
@@ -22,8 +21,7 @@ h1{
 }
 
 h2{
-  padding-top: 30px;
-  margin-left: 7%;
+  margin-left: 10%;
   font-size: 50px;
   color: gray;
   font-family: 'Caveat', cursive;
@@ -95,11 +93,20 @@ h3 {
 
 /* me */
 
+.hobby{
+  display: flex;
+  justify-items: center;
+  margin-left: 15%;
+}
+
+.text{
+  text-align: center;
+}
+
 .arrow{
-  margin-left: 12%;
+  margin-right: 15%;
 	position: relative;
 	display: inline-block;
-	padding: 40px;
 	color: #000;
 	vertical-align: middle;
 	text-decoration: none;
@@ -128,7 +135,6 @@ h3 {
 }
 
 .recommend-img{
-  margin-left: 12%;
   display: flex;
   gap: 10px;
   position: relative;
@@ -157,11 +163,114 @@ h3 {
 }
 
 
+.mask-image{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  clip-path: path("M75 133.438L65.9375 125.188C33.75 96 12.5 76.75 12.5 53.125C12.5 33.875 27.625 18.75 46.875 18.75C57.75 18.75 68.1875 23.8125 75 31.8125C81.8125 23.8125 92.25 18.75 103.125 18.75C122.375 18.75 137.5 33.875 137.5 53.125C137.5 76.75 116.25 96 84.0625 125.25L75 133.438Z");
+  margin-right: 60px;
+}
+
+.inner-1{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #7c7a7a;
+}
+
+.inner-2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  z-index: 2;
+  background: #f8bef4;
+}
+
+.inner-2-2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  z-index: 2;
+  background: #f8bef4;
+}
+
+.inner-2-3{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  z-index: 2;
+  background: #f8bef4;
+}
+
+.inner-2-4{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  z-index: 2;
+  background: #f8bef4;
+}
+
+.heart1{
+  display: flex;
+  justify-content: center;
+}
+
+.heart{
+  mask-image: url(../img/heart.png);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  height: 300px;
+  width: 300px;
+}
+
+.heart-progress{
+  height: 50px;
+  width: 100%;
+  background-color: red;
+}
+
+.heart img{
+  height: 100%;
+  width:  100%;
+}
+
+
 /* work */
 
-#work{
-  display: none;
+.work-one{
+  display: flex;
+  justify-content: center;
 }
+
+.work-one img{
+  width: 400px;
+  height: auto;
+  border: solid 3px white;
+}
+
+.work-two{
+  display: flex;
+  justify-content: center;
+}
+
+.work-two img{
+  width: 400px;
+  height: auto;
+  border: solid 3px white;
+}
+
 
 /* contact */
 
@@ -171,14 +280,6 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-}
-
-#contact h1{
-  margin-top: 0px;
-  margin-left: 4%;
-  font-size: 80px;
-  color: gray;
-  font-family: 'Caveat', cursive;
 }
 
 form div{
@@ -240,7 +341,7 @@ input[type="submit"]{
 
 /* copy */
 
-.copy{
+#copy{
   background-color: white;
   text-align: center;
   color: rgb(77, 76, 76);
