@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#hat{
+    background-color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 500%;
+    color: black;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    margin-right: 350px;
+}
+
+.hat-p img{
+    width: 400px;
+    height: auto;
+    padding: 40px;
+}
+
+.hat-p{
+    padding-left: 150px;
+}
+
+/*.hat-p .h2 img{
+    height: 350px;
+}*/
+
+.hat-p .h1{
+    display: flex;
+}
+
+.hat-p .h2{
+    display: flex;
+}
+
+.hat-p .h3{
+    display: flex;
+}
+
+.hat-p .h4{
+    display: flex;
+}
+
+.hat-p .h1 li{
+    padding-top: 170px;
+    margin-left: 15px;
+}
+
+.hat-p .h2 li{
+    padding-top: 180px;
+}
+
+.hat-p .h3 li{
+    padding-top: 240px;
+}
+
+.hat-p li{
+    list-style: none;
+    padding-top: 100px;
+    margin-left: 60px;
+}
+
+.copy{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

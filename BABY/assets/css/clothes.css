@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#clothes{
+    background-color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 500%;
+    color: black;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    margin-right: 350px;
+}
+
+.clothse-p img{
+    width: 400px;
+    height: auto;
+    padding: 40px;
+}
+
+.clothse-p{
+    padding-left: 150px;
+}
+
+.clothse-p .c2 img{
+    height: 350px;
+}
+
+.clothse-p .c1{
+    display: flex;
+}
+
+.clothse-p .c2{
+    display: flex;
+}
+
+.clothse-p .c3{
+    display: flex;
+}
+
+.clothse-p .c1 li{
+    margin-left: 15px;
+}
+
+.clothse-p li{
+    list-style: none;
+    padding-top: 100px;
+    margin-left: 60px;
+}
+
+.copy{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

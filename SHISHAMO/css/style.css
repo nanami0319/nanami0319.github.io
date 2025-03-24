@@ -1,0 +1,149 @@
+@charset "UTF=8";
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#home{
+  background-image: url(../img/home.png);
+  /* padding-top: 150px; */
+  min-height: 100vh;
+  border-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#home img{  
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  /* overflow: hidden; */
+}
+
+.home-nav{
+  font-size: 30px;
+  padding-top: 100px;
+  padding-left: 1000px;
+  /* padding-bottom: 300px; */
+  list-style: none;
+}
+
+.home-nav a{
+  color: rgb(61, 77, 92);
+}
+
+.home-nav a:hover {
+  color: rgb(142, 204, 220);
+}
+
+.keyvisual{
+  height: 693px;
+  background-image: url(../img/main.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(250, 197, 224);
+}
+
+.Song{
+  display: flex;
+}
+
+h1{
+  margin: 0;
+  padding-top: 200px;
+  padding-left: 150px;
+  font-family: serif;
+  font-size: 45px;
+  color: rgb(135, 132, 132);
+  background-color: rgb(250, 197, 224);
+}
+
+#best{
+  background-color: rgb(250, 197, 224);
+}
+
+.Song img{
+  transition: all 1s linear;
+}
+
+.Song:hover img{
+  transform: rotateZ(360deg);
+}
+
+.bestsong{
+  margin: 0;
+}
+
+.bestsong img{
+  width: 70px;
+  height: 70px;
+}
+
+.bestsong li{
+  margin: 0;
+  padding-left: 300px;
+  font-size: 65px;
+  font-family: serif;
+  list-style: none;
+  color: rgb(71, 69, 69);
+  text-align: left;
+}
+
+#recommend{
+  margin: 0;
+  background-color: rgb(250, 197, 224);
+}
+
+
+h2{
+  margin: 0;
+  padding-top: 200px;
+  font-size: 45px;
+  font-family: serif;
+  color: rgb(135, 132, 132);
+  text-align: center;
+}
+
+.recommend-img{
+  height: 600px;
+  position: relative;
+  width: 400px;
+  margin: 30px auto 0;
+}
+
+.image{
+  /* margin-top: 30px; */
+  height: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.img1{
+  opacity: 1;
+}
+
+.recommend-img:hover .img1{
+  opacity: 0;
+}
+
+.recommend-img:hover .img2{
+  opacity: 1;
+}
+
+.recommend-img:hover .img3{
+  opacity: 1;
+  transition-delay: 1.5s;
+}
+
+.copy{
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+}

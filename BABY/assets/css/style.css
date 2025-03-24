@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    margin-right: 250px;
+}
+
+#main{
+   /* background-color: aliceblue;*/
+    background-image: url(../img/main.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    border-width: 100%;
+}
+
+#main h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 500%;
+    color: black;
+}
+
+.manu{
+    font-size: 50px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.manu a{
+    color: white;
+}
+
+.manu a:hover{
+    color: yellow;
+}
+
+/*#concept{
+    background-color: aliceblue;
+}*/
+
+.img-box{
+    /*background-color: aliceblue;*/
+    width: 100%;
+    height: 46vw;
+   /* overflow: hidden;*/
+   position: relative;
+}
+
+.img-box>div{
+    position: absolute;
+    top: 0;
+    /* left: 97px; */
+    width: 100%;
+    height: 38vw;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 7;
+    }
+    80%{
+        opacity: 0;
+        /* transform: scale(1.2); */
+    }
+    100%{
+        z-index: 0;
+        opacity: 0;
+    }
+}
+
+.img-box>div:nth-of-type(1){
+    background-image: url(../img/concept.jpg);
+}
+.img-box>div:nth-of-type(2){
+    background-image: url(../img/concept2.jpg);
+    animation-delay: 4s;
+}
+.img-box>div:nth-of-type(3){
+    background-image: url(../img/concept3.jpg);
+    animation-delay: 8s;
+}
+
+#concept p{
+    padding-top: 90px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#concept h2{
+    text-align: center;
+    font-size: 90px;
+}
+    
+#goods h2{
+    text-align: center;
+    font-size: 90px;
+}
+
+#goods h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+#goods .icon1{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+#goods a{
+    text-decoration: none;
+}
+
+#goods h2{
+    color: black;
+}
+
+#goods h3{
+    color: black;
+}
+
+#goods h3:hover{
+   color: lightblue;
+}
+
+#goods img{
+    width: 300px;
+    height: auto;
+    margin: -25px;
+}
+
+.copy{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
