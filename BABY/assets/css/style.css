@@ -5,19 +5,22 @@ body{
     padding: 0;
 }
 
-.logo{
+/* .logo{
     display: flex;
-}
+    gap: 15%;
+} */
 
 .logo img{
-    width: 200px;
+    width: 80px;
     height: auto;
-    margin-right: 250px;
+    padding-top: 40px;
+    padding-left: 5%;
+   
 }
 
 #main{
    /* background-color: aliceblue;*/
-    background-image: url(../img/main.jpg);
+    background-image: url(../img/main2.jpg);
     min-height: 100vh;
     background-size: cover;
     border-width: 100%;
@@ -90,14 +93,14 @@ body{
 }
 
 .img-box>div:nth-of-type(1){
-    background-image: url(../img/concept.jpg);
+    background-image: url(../img/concept1-2.jpg);
 }
 .img-box>div:nth-of-type(2){
-    background-image: url(../img/concept2.jpg);
+    background-image: url(../img/concept2-2.jpg);
     animation-delay: 4s;
 }
 .img-box>div:nth-of-type(3){
-    background-image: url(../img/concept3.jpg);
+    background-image: url(../img/concept3-2.jpg);
     animation-delay: 8s;
 }
 
