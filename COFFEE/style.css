@@ -13,6 +13,11 @@ div{
     box-sizing: content-box;
 }
 
+.slick-slide img{
+    width: 600px;
+    height: auto;
+}
+
 main h2{
     text-align: center;
 }
