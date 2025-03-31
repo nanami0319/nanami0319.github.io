@@ -7,7 +7,7 @@ body{
   background-color: rgb(250, 242, 245);
 }
 
-.wf-sawarabimincho { 
+.wf-sawarabimincho {
   font-family: "Sawarabi Mincho";
   color: rgb(77, 76, 76);
 }
@@ -27,7 +27,7 @@ h2{
   font-family: 'Caveat', cursive;
 }
 
-h3 { 
+h3 {
   font-family: "Sawarabi Mincho";
   color: rgb(77, 76, 76);
 }
@@ -39,14 +39,14 @@ h3 {
   top: 0;
   left: 0;
   z-index: 3;
-  
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
   width: 100%;
   height: auto;
-  box-sizing: border-box; /*　width100%の中にpadding 30pxを含ませる。 */ 
+  box-sizing: border-box; /*　width100%の中にpadding 30pxを含ませる。 */
   padding: 30px;
 }
 
@@ -345,4 +345,10 @@ input[type="submit"]{
   background-color: white;
   text-align: center;
   color: rgb(77, 76, 76);
+}
+
+#copy small {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
 }
