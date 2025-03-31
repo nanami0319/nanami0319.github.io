@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body{
+    font-family: serif;
+}
+
+.big-bg{
+    background-image: url(../img/main.avif);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: right;
+    border-width: 100%;
+}
+
+h1{
+    font-size: 100px;
+    padding: 30px;
+    position: fixed;
+    position: sticky;
+    top: 10px;
+    color: hotpink;
+}
+
+.menu{
+    font-size: 20px;
+    text-align: right;
+    padding: 30px;
+}
+
+.menu a{
+    color: aliceblue;
+}
+
+.menu a:hover{
+    color: hotpink;
+}
+
+#Profile{
+    background-color: pink;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+
+.introduction table{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.introduction{
+    height: 600px;
+    padding-left: 430px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+#Charm{
+    background-color: pink;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.fascination{
+    height: 600px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.fascination ul{
+    list-style-position: inside;
+    padding-left: 430px;
+    padding-top: 5%;
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+}
+
+#Recommend{
+    background-color: pink;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.youtube02{
+    padding-top: 10%;
+}
+
+.youtube03{
+    padding-top: 10%;
+}
+
+.footer h3{
+    color: palevioletred;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+}
