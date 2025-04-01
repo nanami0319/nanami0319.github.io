@@ -88,10 +88,10 @@ h3 {
   background-repeat: no-repeat;
   max-width: 100vw;
   min-height: 820px;
-  /* background-attachment: fixed; */
-  position: sticky;
+  background-attachment: fixed;
+  /* position: sticky;
   z-index: -1;
-  top: 150px;
+  top: 150px; */
 }
 
 /* me */
@@ -348,4 +348,10 @@ input[type="submit"]{
   background-color: white;
   text-align: center;
   color: rgb(77, 76, 76);
+}
+
+#copy small{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
 }
