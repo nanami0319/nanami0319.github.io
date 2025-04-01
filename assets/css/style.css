@@ -45,7 +45,7 @@ h3 {
   align-items: center;
   background-color: white;
   width: 100%;
-  height: auto;
+  height: 150px;
   box-sizing: border-box; /*　width100%の中にpadding 30pxを含ませる。 */ 
   padding: 30px;
 }
@@ -88,7 +88,10 @@ h3 {
   background-repeat: no-repeat;
   max-width: 100vw;
   min-height: 820px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+  position: sticky;
+  z-index: -1;
+  top: 150px;
 }
 
 /* me */
