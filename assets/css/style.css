@@ -4,7 +4,9 @@ body{
   padding: 0;
   margin: 0;
   line-height: 1;
-  background-color: rgb(250, 242, 245);
+  background-color: #F7EFF1;
+  width: 100vw;
+  height: auto;
 }
 
 .wf-sawarabimincho { 
@@ -18,6 +20,7 @@ h1{
   font-size: 80px;
   color: gray;
   font-family: 'Caveat', cursive;
+  margin-top: 0;
 }
 
 h2{
@@ -80,21 +83,33 @@ h3 {
 }
 
 .keyvisual{
+  width: 100vw;
+  min-height: 820px;
+  padding-top: 150px;
+}
+
+.keyvisual img{
   padding: 0;
   margin: 0;
-  background-image: url(../img/home1.png);
+  /* background-image: url(../img/home1.png); */
+  background-clip: content-box;
+  position: fixed;
+  aspect-ratio: 1219/620;
   background-size: cover;
   background-position: center 70px;
   background-repeat: no-repeat;
   max-width: 100vw;
   min-height: 820px;
-  background-attachment: fixed;
-  /* position: sticky;
+  /* background-attachment: fixed; */
+  /* position: sticky; */
   z-index: -1;
-  top: 150px; */
 }
 
 /* me */
+#me{
+  background-color: #F7EFF1;
+  min-height: 990px;
+}
 
 .hobby{
   display: flex;
@@ -251,6 +266,10 @@ h3 {
 
 
 /* work */
+#work{
+  background-color: #F7EFF1;
+  padding-bottom: 50px;
+}
 
 .work-one{
   display: flex;
@@ -276,13 +295,12 @@ h3 {
 
 
 /* contact */
-
 #contact{
-  background-color: #faeff4;
   background-image: url(../img/contact.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
+  background-color: #F7EFF1;
 }
 
 form div{
@@ -343,7 +361,6 @@ input[type="submit"]{
 }
 
 /* copy */
-
 #copy{
   background-color: white;
   text-align: center;
