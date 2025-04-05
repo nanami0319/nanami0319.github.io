@@ -93,6 +93,7 @@ h3 {
   margin: 0;
   /* background-image: url(../img/home1.png); */
   background-clip: content-box;
+  position: -webkit-fixed;
   position: fixed;
   aspect-ratio: 1219/620;
   background-size: cover;
