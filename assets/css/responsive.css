@@ -1,2 +1,13 @@
 @charset "UTF=8";
 
+@media (max-width:600px){
+  #home img{
+    width: 120px;
+    height: auto;
+  }
+
+  .navigation a{
+    font-size: 30px;
+    gap: 0px;
+  }
+}
