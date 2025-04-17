@@ -257,11 +257,11 @@ h3 {
 
 .heart{
   mask-image: url(../img/heart.png);
-  mask-size: contain;
+  mask-size: cover;
   mask-repeat: no-repeat;
   mask-position: center;
-  height: 300px;
-  width: 300px;
+  height: auto;
+  width: 100vw;
 }
 
 .heart-item {
@@ -313,9 +313,9 @@ h3 {
 
 /* contact */
 #contact{
-  background-image: url(../img/contact.png);
+  /* background-image: url(../img/contact.png); */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center bottom;
   background-color: #F7EFF1;
 }
