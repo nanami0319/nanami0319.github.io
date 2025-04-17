@@ -10,4 +10,75 @@
     font-size: 20px;
     gap: 0px;
   }
+
+  .wf-sawarabimincho{
+    font-size: 10px;
+  }
+
+  h1{
+    margin-left: 4%;
+    font-size: 40px;
+    margin-top: 0;
+  }
+  
+  h2{
+    margin-left: 10%;
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 10px;
+  }
+
+  .image{
+    width: auto;
+    height: 100px;
+  }
+}
+
+@media (max-width:845px){
+  .arrow{
+    display: none;
+  }
+
+  .sample5-2{
+    display: none;
+  }
+
+  .image{
+    width: auto;
+    height: 150px;
+  }
+
+  .hobby{
+    display: block;
+  }
+
+  .hobby p{
+    text-align: center;
+  }
+}
+
+@media (max-width:985px){
+  .heart1 {
+    justify-content: center;
+  }
+
+  .heart-item {
+    display: flex;
+    flex-direction: column; /* ハートと文字を縦に並べる */
+    align-items: center; /* 中央寄せ */
+  }
+}
+
+@media (max-width:850px){
+  .work-one img{
+    width: 200px;
+    height: auto;
+  }
+
+  .work-two img{
+    width: 200px;
+    height: auto;
+  }  
 }
