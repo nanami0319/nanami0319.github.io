@@ -110,6 +110,7 @@ h3 {
 #me{
   background-color: #F7EFF1;
   min-height: 990px;
+  padding-bottom: 30px;
 }
 
 .hobby{
@@ -285,17 +286,22 @@ h3 {
 .work-one{
   display: flex;
   justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 .work-one img{
   width: 400px;
   height: auto;
   border: solid 3px white;
+  display: block;
 }
 
 .work-two{
   display: flex;
   justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 .work-two img{

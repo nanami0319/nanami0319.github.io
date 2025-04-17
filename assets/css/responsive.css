@@ -71,3 +71,14 @@
   }
 }
 
+@media (max-width:850px){
+  .work-one img{
+    width: 200px;
+    height: auto;
+  }
+
+  .work-two img{
+    width: 200px;
+    height: auto;
+  }  
+}
