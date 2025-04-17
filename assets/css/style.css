@@ -181,6 +181,14 @@ h3 {
   opacity: 1; /* マウスオーバーした画像は完全に不透明 */
 }
 
+.can {
+  display: flex;
+  flex-direction: column; /* 縦方向に並べる */
+  align-items: center;
+  gap: 20px; /* 各項目の間隔 */
+}
+
+
 
 .mask-image{
   position: relative;
@@ -242,6 +250,7 @@ h3 {
 
 .heart1{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -254,11 +263,12 @@ h3 {
   width: 300px;
 }
 
-.heart-progress{
-  height: 50px;
-  width: 100%;
-  background-color: red;
+.heart-item {
+  display: flex;
+  flex-direction: column; /* ハートとタイトルを縦並び */
+  align-items: center; /* 中央寄せ */
 }
+
 
 .heart img{
   height: 100%;
