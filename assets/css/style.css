@@ -313,10 +313,10 @@ h3 {
 
 /* contact */
 #contact{
-  /* background-image: url(../img/contact.png); */
+  /* background-image: url(../img/contact.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center bottom;
+  background-position: center bottom; */
   background-color: #F7EFF1;
 }
 
