@@ -82,3 +82,17 @@
     height: auto;
   }  
 }
+
+@media screen and (max-width: 1024px){
+  .recommend-img a{
+    flex: 1 1 calc(50% - 32px);
+    max-width: calc(50% -32px);
+  }
+}
+
+@media screen and (max-width: 600px){
+  .recommend-img a{
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

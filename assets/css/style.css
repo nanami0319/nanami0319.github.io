@@ -156,8 +156,23 @@ h3 {
 
 .recommend-img{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
-  position: relative;
+  padding: 10px;
+}
+
+.recommend-img a{
+  flex: 1 1 calc(25% - 32px);
+  max-width: calc(25% - 32px);
+  box-sizing: border-box;
+}
+
+.recommend-img img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
 }
 
 .image{
